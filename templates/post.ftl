@@ -8,10 +8,9 @@
 	</div>
 	<#else></#if>
 
-	<p><em>${content.date?string("dd MMMM yyyy")}</em></p>
-
+	
 	<p class="text-responsive text-justify">${content.body}</p>
 
-	<hr />
+	<div class="text text-right date" id="post">Date : ${content.date?string("dd MMMM yyyy")}</div>
 	
 <#include "footer.ftl">

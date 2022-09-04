@@ -2,13 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://localhost:8820/</link>
-    <atom:link href="http://localhost:8820//feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://agileguru.github.io/</link>
+    <atom:link href="https://agileguru.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 3 Sept 2022 20:49:33 +0100</pubDate>
-    <lastBuildDate>Sat, 3 Sept 2022 20:49:33 +0100</lastBuildDate>
+    <pubDate>Sun, 4 Sept 2022 23:27:03 +0100</pubDate>
+    <lastBuildDate>Sun, 4 Sept 2022 23:27:03 +0100</lastBuildDate>
 
+    <item>
+      <title>What I Do</title>
+      <link>https://agileguru.github.io//2022/09/leadership.html</link>
+      <pubDate>Sun, 4 Sept 2022 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">2022/09/leadership.html</guid>
+      	<description>
+	
+
+    &lt;div class=&quot;col-xs-12 col-md-6 col-lg-6&quot;&gt;
+    &lt;div class=&quot;panel panel-primary&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; id=&quot;java&quot;&gt;Developing Applications And Services&lt;/div&gt;
+            &lt;div class=&quot;panel-body text-justify&quot; id=&quot;javaBody&quot;&gt;
+            &lt;strong&gt;Solutions based on JAVA platform including...&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;J2EE, Web, Spring, Hibernate, JPA&lt;/li&gt;
+                    &lt;li&gt;MySql, MariaDB, PostgreSQl,MongoDB &lt;/li&gt;
+                    &lt;li&gt;Struts, Tiles, Bootstrap&lt;/li&gt;
+                    &lt;li&gt;Tomcat, Jetty, Nginx, Apache suite&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel panel-primary&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; id=&quot;agile&quot;&gt;Agile Process Implementation&lt;/div&gt;
+            &lt;div class=&quot;panel-body text-justify&quot; &gt;
+            &lt;strong&gt;Incorporate agile practices by implementing...&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Development standards&lt;/li&gt;
+                    &lt;li&gt;Continues Integration / automation&lt;/li&gt;
+                    &lt;li&gt;TDD, BDD, DDD tools and techniques&lt;/li&gt;
+                    &lt;li&gt;Quality control standards&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-xs-12 col-md-6 col-lg-6&quot;&gt;
+    &lt;div class=&quot;panel panel-primary&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; id=&quot;devops&quot;&gt;DevOps Capability Implementation / Coaching &lt;/div&gt;
+            &lt;div class=&quot;panel-body text-justify&quot; &gt;
+            &lt;strong&gt;Expertise are in...&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Environment Management (VMWare / Citrix Xen)  &lt;/li&gt;
+                    &lt;li&gt;Cloud management (AWS / GCP / Rackspace)&lt;/li&gt;
+                    &lt;li&gt;Delivery pipeline automation&lt;/li&gt;
+                    &lt;li&gt;Application management (BAU)&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;panel panel-primary&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; id=&quot;bespoke&quot;&gt;Bespoke Solution Development&lt;/div&gt;
+            &lt;div class=&quot;panel-body text-justify&quot;&gt;
+            &lt;strong&gt;We engage in every step ...&lt;br/&gt;&lt;br/&gt;&lt;/strong&gt; 
+            &lt;ul&gt;
+                    &lt;li&gt;Identify your requirements&lt;/li&gt;
+                    &lt;li&gt;Provide an unbiased solution design&lt;/li&gt;
+                    &lt;li&gt;Commit to quality and open standards&lt;/li&gt;
+                    &lt;li&gt;Develop / enhance your solutions&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+	</description>
+    </item>
 
   </channel> 
 </rss>

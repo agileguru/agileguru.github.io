@@ -13,3 +13,17 @@
   .text-responsive { font-size: 16px; }
   a { font-size: 16px; }       
 }
+
+h1 {
+  color: darkorange;
+}
+
+h2,h3,h4 {
+  color: brown;
+  padding-bottom: 15px;
+}
+
+.date {
+  font-weight: bold;
+  color: #477ca8;
+}

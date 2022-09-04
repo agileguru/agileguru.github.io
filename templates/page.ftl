@@ -8,9 +8,9 @@
 	</div>
 	<#else></#if>
 
-	<p><em>${content.date?string("dd MMMM yyyy")}</em></p>
+	<p class="text-responsive date"><em>Date : ${content.date?string("dd MMMM yyyy")}</em></p>
 
-	<p class="text-responsive text-justify">${content.body}</p>
+	<div class="text-responsive text-justify">${content.body}</div>
 
 	<hr />
 
