@@ -6,9 +6,33 @@
     <atom:link href="http://localhost:8820//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sun, 4 Sept 2022 18:03:22 +0100</pubDate>
-    <lastBuildDate>Sun, 4 Sept 2022 18:03:22 +0100</lastBuildDate>
+    <pubDate>Sun, 4 Sept 2022 20:26:06 +0100</pubDate>
+    <lastBuildDate>Sun, 4 Sept 2022 20:26:06 +0100</lastBuildDate>
 
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:8820//2022/09/leadership.html</link>
+      <pubDate>Sun, 4 Sept 2022 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">2022/09/leadership.html</guid>
+      	<description>
+	
+
+&lt;p&gt;
+    Senior Engineering Leader / SRE practitioner with 22+ years of alacrity / passion in delivering
+    business applications &amp; solutions. An amalgamation of proficiency in both application and
+    infrastructure engineering with Tier-1 organisations. Proven in building and managing highly
+    effective teams and capabilities from scratch or otherwise. Recruit / retain / help and run
+    motivated teams of varied responsibilities delivering results within timelines, exceeding quality
+    expectations.
+&lt;/p&gt;
+
+&lt;h2&gt; Traits of Leaders &lt;/h2&gt;
+
+
+&lt;h2&gt; How to be a good leader&lt;/h2&gt;
+
+	</description>
+    </item>
 
   </channel> 
 </rss>

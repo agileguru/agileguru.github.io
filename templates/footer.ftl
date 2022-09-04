@@ -4,15 +4,17 @@
             <div class="panel-heading text-responsive" id="newsGroupHeading">Latest News</div>
             <div class="panel-body text-justify text-responsive">
                 <#assign currentMonth =  .now?string("MMMM") />
+                <ul>
                 <#list tags as tag>
                     <#if (tag.name == "news")>
                       <#list tag.tagged_documents as page>	
                         <#if page.date?string("MMMM") == currentMonth>
-                          <a href="${page.uri}" class="text-responsive">${page.title}</a>
+                          <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${page.uri}" class="text-responsive">${page.title}</a></li>
                         </#if>
                       </#list>
                     </#if>
                   </#list>
+                </ul>
             </div>
         </div><br/>
         <div class="panel panel-primary">
@@ -27,8 +29,8 @@
         <div class="panel panel-primary">
           <div class="panel-heading" id="TwitterGroupHeading">Twitter Feed</div>
           <div class="panel-body text-justify">
-                <a class="twitter-timeline" data-lang="en" data-width="100%" data-height="200" 
-                  href="https://twitter.com/AgileTechGuru?ref_src=twsrc%5Etfw" target="twitter">Our Tweets</a> 
+                <a class="twitter-timeline" data-lang="en" data-width="100%" data-height="400" 
+                  href="https://twitter.com/AgileTechGuru?ref_src=twsrc%5Etfw" target="twitter"></a> 
                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div><br/>
