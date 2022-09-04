@@ -3,7 +3,7 @@
 	<#include "menu.ftl">
 
 	<div class="page-header">
-		<h1>Posts</h1>
+		<h1>Guru's Dairy</h1>
 	</div>
 
 	<#list posts as post>
