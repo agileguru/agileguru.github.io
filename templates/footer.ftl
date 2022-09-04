@@ -21,6 +21,7 @@
             <div class="panel-heading text-responsive" id="newsGroupHeading">Links</div>
             <div class="panel-body text-justify text-responsive">
               <ul>
+                <li><a href="https://www.youtube.com/c/GurumoorthyRaghupathy" class="links">My Youtube Channel</a></li>
                 <li><a href="https://github.com/agileguru/" class="links">My Github</a></li>
                 <li><a href="https://dev.azure.com/webtechguru/" class="links">My Azure</a></li>
               </ul>

@@ -18,7 +18,7 @@ h1 {
   color: darkorange;
 }
 
-h2 {
+h2,h3,h4 {
   color: brown;
   padding-bottom: 15px;
 }
