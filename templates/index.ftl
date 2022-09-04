@@ -3,15 +3,22 @@
 	<#include "menu.ftl">
 
 	<div class="page-header">
-		<h1>Guru's Dairy</h1>
+		<h1>Guru's Blog</h1>
 	</div>
 
+	<div class="container-fluid">
+	<ol>
 	<#list posts as post>
   		<#if (post.status == "published")>
-  			<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}"><h4>${post.title}</h4></a>
-  			<p class="text-responsive text-justify">${post.date?string("dd MMMM yyyy")}</p>
-  			<p class="text-responsive text-justify">${post.body}</p>
+			<div class="panel">
+				<div class="panel-body text-justify" id="javaBody">
+				<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${post.uri}"><h4><li>${post.title}</li></h4></a>
+					${post.body}
+				</div>
+				<div class="text text-right date" id="post">Date : ${post.date?string("dd MMMM yyyy")}</div>
+			</div>
   		</#if>
   	</#list>
-	
+	</ol>
+	</div>
 <#include "footer.ftl">
