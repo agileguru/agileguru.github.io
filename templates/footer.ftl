@@ -1,12 +1,38 @@
 		</div>
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><br/><br/><br/><br/><br/><br/>
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading text-responsive" id="newsGroupHeading">Latest News</div>
             <div class="panel-body text-justify text-responsive">
-                Latest News / articles has moved to a centralised location in our <a href="https://www.agileguru.org/blog/">blog</a>. 
-                Please update your bookmarks accordingly.
+                <#assign currentMonth =  .now?string("MMMM") />
+                <#list tags as tag>
+                    <#if (tag.name == "news")>
+                      <#list tag.tagged_documents as page>	
+                        <#if page.date?string("MMMM") == currentMonth>
+                          <a href="${page.uri}" class="text-responsive">${page.title}</a>
+                        </#if>
+                      </#list>
+                    </#if>
+                  </#list>
             </div>
-        </div>
+        </div><br/>
+        <div class="panel panel-primary">
+            <div class="panel-heading text-responsive" id="newsGroupHeading">Links</div>
+            <div class="panel-body text-justify text-responsive">
+              <ul>
+                <li><a href="https://github.com/agileguru/" >My Github</a></li>
+                <li><a href="https://dev.azure.com/webtechguru/" >My Azure</a></li>
+              </ul>
+            </div>
+        </div><br/>
+        <div class="panel panel-primary">
+          <div class="panel-heading" id="TwitterGroupHeading">Twitter Feed</div>
+          <div class="panel-body text-justify">
+                <a class="twitter-timeline" data-lang="en" data-width="100%" data-height="200" 
+                  href="https://twitter.com/AgileTechGuru?ref_src=twsrc%5Etfw" target="twitter">Our Tweets</a> 
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div><br/>
+        
     </div>   
 		<div id="push"></div>
     </div>

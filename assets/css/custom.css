@@ -13,3 +13,7 @@
   .text-responsive { font-size: 16px; }
   a { font-size: 16px; }       
 }
+
+li{
+  margin-left:-40px;
+}

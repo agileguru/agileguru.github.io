@@ -8,7 +8,7 @@
 	</div>
 	<#else></#if>
 
-	<p><em>${content.date?string("dd MMMM yyyy")}</em></p>
+	<p class="text-responsive"><em>${content.date?string("dd MMMM yyyy")}</em></p>
 
 	<p class="text-responsive text-justify">${content.body}</p>
 
