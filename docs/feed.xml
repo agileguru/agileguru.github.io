@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>https://agileguru.github.io/</link>
-    <atom:link href="https://agileguru.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:8820/</link>
+    <atom:link href="http://localhost:8820//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sun, 4 Sept 2022 23:27:03 +0100</pubDate>
-    <lastBuildDate>Sun, 4 Sept 2022 23:27:03 +0100</lastBuildDate>
+    <pubDate>Sun, 4 Sept 2022 23:33:17 +0100</pubDate>
+    <lastBuildDate>Sun, 4 Sept 2022 23:33:17 +0100</lastBuildDate>
 
     <item>
       <title>What I Do</title>
-      <link>https://agileguru.github.io//2022/09/leadership.html</link>
+      <link>http://localhost:8820//2022/09/leadership.html</link>
       <pubDate>Sun, 4 Sept 2022 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">2022/09/leadership.html</guid>
       	<description>
